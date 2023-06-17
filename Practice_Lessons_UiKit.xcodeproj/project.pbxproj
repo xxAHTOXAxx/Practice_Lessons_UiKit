@@ -56,15 +56,39 @@
 		31E1E3702A3D821000467E35 /* Practice_Lessons_UiKit */ = {
 			isa = PBXGroup;
 			children = (
+				31E1E3852A3D856B00467E35 /* Sourses */,
+				31E1E3872A3D85AE00467E35 /* Resourses */,
+			);
+			path = Practice_Lessons_UiKit;
+			sourceTree = "<group>";
+		};
+		31E1E3852A3D856B00467E35 /* Sourses */ = {
+			isa = PBXGroup;
+			children = (
+				31E1E3862A3D859C00467E35 /* App */,
+				31E1E3752A3D821000467E35 /* ViewController.swift */,
+			);
+			path = Sourses;
+			sourceTree = "<group>";
+		};
+		31E1E3862A3D859C00467E35 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				31E1E3712A3D821000467E35 /* AppDelegate.swift */,
 				31E1E3732A3D821000467E35 /* SceneDelegate.swift */,
-				31E1E3752A3D821000467E35 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		31E1E3872A3D85AE00467E35 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
 				31E1E3772A3D821000467E35 /* Main.storyboard */,
 				31E1E37A2A3D821200467E35 /* Assets.xcassets */,
 				31E1E37C2A3D821200467E35 /* LaunchScreen.storyboard */,
 				31E1E37F2A3D821200467E35 /* Info.plist */,
 			);
-			path = Practice_Lessons_UiKit;
+			path = Resourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Practice_Lessons_UiKit/Info.plist;
+				INFOPLIST_FILE = Practice_Lessons_UiKit/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,7 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Practice_Lessons_UiKit/Info.plist;
+				INFOPLIST_FILE = Practice_Lessons_UiKit/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
